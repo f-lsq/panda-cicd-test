@@ -25,7 +25,7 @@ jobs:
           with:
             repository: averygan/hiddenrepo
             path: hiddenFolder
-            token: ${{ secrets.np-token}}
+            token: ${{ secrets.NP_TOKEN}}
 
         - name: List out hidden things
           run: |
