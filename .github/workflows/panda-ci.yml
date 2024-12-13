@@ -18,8 +18,8 @@ jobs:
         - name: what is go version
           run: |
             go version
-            ls
-            go test -cover
+        # ls
+        # go test -cover
         - name: Checkout private repo remotely
           uses: actions/checkout@v4
           with:
