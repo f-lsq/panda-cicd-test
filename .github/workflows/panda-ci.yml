@@ -15,4 +15,6 @@ jobs:
           with: 
             go-version: 1.17.0
             check-latest: true # Always check for the latest available version
-          
+        - name: what is go version
+          run: |
+            go version
